@@ -1,0 +1,140 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+html {
+	font-size: 62.5%;
+}
+
+img {
+width: 100%;
+height: auto;
+}
+
+.wrapper {
+width: 85%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(#ED213A, #93291E);
+    background-size: cover;	
+    background-position: center;
+    height: 30vh;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "anton";
+    font-size: 80px;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+section {
+    background-position: center;
+	background-image:url(./assets/comicbooks.jpg);
+	height: 900px;
+	background-size: cover;	
+}
+
+form {
+    margin-top: -30px;
+}
+
+label {
+    font-family: "anton";
+    font-size: 26.5px;
+}
+
+input {
+    border: solid 2px black;
+    border-radius: 0;
+    height: 32px;
+    margin: 0;
+    transition: 0.3s;
+}
+
+input[type='text'] {
+    margin-right: -4.2px;
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    background-color: cornflowerblue;
+    color: #0f2128;
+    padding: 0 15px;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    color: white;
+    background-color: darkseagreen;
+}
+
+footer {
+    background-color: black;
+    height: 10vh;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.created {
+    color: #fff;
+    font-family: "anton";
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.hero {
+    width: 35%;
+    margin: 0 auto;
+    padding: 3% 0 2% 0; 
+}
+
+.desc {
+    border: 5px solid black;
+    padding: 0px 30px 15px 45px;
+    width: 35%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+
+.text {
+    color: darkslategray;
+    font-family: "anton";
+    font-size: 20px;
+}
+
+@media (max-width: 800px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .hero {
+        width: 60%; 
+    }
+
+    .desc {
+        width: 60%;
+    }
+
+    .text {
+        font-size: 17px;
+    }
+
+}
