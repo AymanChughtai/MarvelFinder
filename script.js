@@ -5,7 +5,7 @@ app.key = `228073f89f70a5a70413d06777bf99d5`;
 
 app.getHero = function (name) {
     $.ajax({
-        url: 'http://gateway.marvel.com/v1/public/characters',
+        url: 'https://gateway.marvel.com/v1/public/characters',
         method: 'GET',
         format: 'json',
         data: {
